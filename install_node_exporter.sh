@@ -28,5 +28,4 @@ EOF
 systemctl daemon-reload
 systemctl enable node_exporter.service
 systemctl start node_exporter.service
-
-echo "Run systemctl status node_exporter.service"
+systemctl status node_exporter.service
